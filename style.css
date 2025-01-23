@@ -10,7 +10,7 @@
 }
 @font-face {
     font-family: "averta";
-    src: url(../fonts/AvertaCY-Regular.ttf);
+    src: url(./fonts/AvertaCY-Regular.ttf);
 }
 p {
     font-size: 14px;

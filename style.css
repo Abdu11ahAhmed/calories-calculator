@@ -1,0 +1,128 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #000;
+    text-decoration: none;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    font-family: "averta";
+}
+@font-face {
+    font-family: "averta";
+    src: url(../fonts/AvertaCY-Regular.ttf);
+}
+p {
+    font-size: 14px;
+}
+
+.container {
+    min-height: 100vh;
+    width: 1200px;
+    margin: 0 auto;
+}
+header {
+    min-height: 15vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+form {
+    border-bottom: 1px solid #ddd;
+    height: 37.5vh;
+    width: 100%;
+    padding: 0 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+form h4 {
+    text-transform: uppercase;
+}
+form input {
+    height: 40px;
+    width: 100%;
+    margin: 5px 0 20px 0;
+    outline: none;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    color: black;
+    padding: 20px;
+}
+form button {
+    background: black;
+    color: white;
+    border: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    height: 40px;
+    width: 200px;
+    margin: 5px auto;
+    cursor: pointer;
+}
+.needed .content {
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.needed .content div {
+    padding: 5px 0;
+    font-size: 16px;
+}
+.needed .content div .tag {
+    font-size: 15px;
+}
+span {
+    text-decoration: underline;
+}
+@media screen and (max-width: 1550px) {
+    form {
+        padding: 0;
+    }
+    .needed .content {
+        padding: 20px 0;
+    }
+}
+@media screen and (max-width: 1280px) {
+    .container {
+        width: 600px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .container {
+        width: 100%;
+        padding: 0 20px;
+    }
+    br {
+        display: none;
+    }
+    header {
+        min-height: 20vh;
+    }
+    h2 {
+        font-size: 16px;
+    }
+    form {
+        height: 45vh;
+    }
+    form h3 {
+        text-transform: uppercase;
+        font-size: 15px;
+    }
+    form input {
+        height: 40px;
+        margin: 5px 0 10px 0;
+        font-size: 14px;
+        padding: 20px;
+    }
+    form button {
+        font-size: 12px;
+        height: 40px;
+        width: 150px;
+    }
+}

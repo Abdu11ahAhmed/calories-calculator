@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+            name="description"
+            content="Daily calories calculater for trainers"
+        />
+        <link rel="stylesheet" href="style.css" />
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <h2>Calories calculator For Trainers</h2>
+                <p>
+                    calculate your daily calories for trainers and <br />
+                    how much grams you should have
+                </p>
+            </header>
+
+            <form>
+                <h3>weight</h3>
+                <input
+                    type="number"
+                    id="weight"
+                    placeholder="Weight in numbers"
+                />
+                <h3>traning hours</h3>
+                <input
+                    type="number"
+                    id="hours"
+                    placeholder="Traning hour in number"
+                />
+                <button id="btn">calculate</button>
+            </form>
+
+            <div class="needed">
+                <header>
+                    <h2>Needed calories per day</h2>
+                    <p>
+                        Needed calories and grams of carbohydrate and fats and
+                        protein
+                    </p>
+                </header>
+
+                <div class="content">
+                    <div>
+                        Personal reqiredment
+                        <span class="tag">(calories)</span> :
+                        <span id="frist">0</span> calorie
+                    </div>
+                    <div>
+                        Needed from carbohydrate :
+                        <span id="second">0</span> grams
+                    </div>
+                    <div>
+                        Needed from fats : <span id="third">0</span> grams
+                    </div>
+                    <div>
+                        Needed from protein : <span id="forth">0</span> grams
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="./main.js"></script>
+    </body>
+</html>
